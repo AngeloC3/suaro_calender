@@ -1,0 +1,1 @@
+export const possibleDays = ["Soumday", "Maruesday", "Neshday", "Filoday", "Cietoday"]
