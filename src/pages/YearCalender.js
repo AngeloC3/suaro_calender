@@ -58,7 +58,7 @@ export const YearCalendar = ({ year, setYear, yearManager }) => {
 
     return (
         <div className="container my-5">
-            <h1 className="text-center mb-4">{year.yearNumber} {year.suffix} Calendar</h1>
+            <h1 className="text-center mb-4">{year.yearNumber} {year.suffix}</h1>
             <div className="row g-4">
                 {year.months.map((month, monthIndex) => (
                     <div key={monthIndex} className="col-12 mb-4">
